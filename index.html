@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busega Preparatory School</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMfyBOEA-GrliPNHS6tvPMypqtV0kQdcyNA&s" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #004080;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            height: 50vh;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 50vh;
+            object-fit: cover;
+        }
+
+        .hero .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+        }
+
+        .section {
+            padding: 2rem 0;
+        }
+
+        .grid-layout {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .cta {
+            background: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        footer {
+            background: #333;
+            color: #00FF00;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #004080;
+            color: #fff;
+            padding: 0.5rem;
+            border-radius: 50%;
+            display: none;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                height: 30vh;
+            }
+
+            .hero img {
+                height: 30vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMfyBOEA-GrliPNHS6tvPMypqtV0kQdcyNA&s" alt="School Badge">
+                    Busega Preparatory School
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#mission">Vision</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#mission">Values</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#fees">Fees Structure</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cta">Enroll Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="heroCarousel" class="carousel slide hero" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCCr_X8kZqWIK90p0JiV7BZjHncXMXgGwpqw&s" alt="Slide 1">
+                <div class="carousel-caption">
+                    <h2>Welcome to Busega Preparatory School</h2>
+                    <p>Where Excellence Begins</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdNyTa3hYRKgWdgDaboPEVD8f44q-YRW3Q3Q&s" alt="Slide 2">
+                <div class="carousel-caption">
+                    <h2>Inspiring Future Leaders</h2>
+                    <p>Quality Education for All</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Busega preparatory school is a private,Mixed Day and Boarding primary School, Christian founded in 1989 with 15 students and offers an ideal learning in urban setting. Busega Preparatory is now an advanced school with a farm for project work, computer laboratory for Technology ,advanced learning by quality staff members and fully registerede with the MoES with Reg.no. PPS/B/44 and centre no.003379 at the edge of kampala the capital of Uganda</p>
+        </div>
+    </section>
+
+    <section class="section" id="mission">
+        <div class="container">
+            <h2>Our Mission, Vision, and Values</h2>
+            <div class="grid-layout">
+                <div>
+                    <i class="fas fa-bullseye fa-3x"></i>
+                    <h3>Mission</h3>
+                    <p>To excel in imparting practical knowledge and Godly values to the primary leavers,which will help them to function effectively.</p>
+                </div>
+                <div>
+                    <i class="fas fa-eye fa-3x"></i>
+                    <h3>Vision</h3>
+                    <p>To be the leading provider of life skills and a solid academic performance in Kampala district.</p>
+                </div>
+                <div>
+                    <i class="fas fa-handshake fa-3x"></i>
+                    <h3>Values</h3>
+                    <p>Excellence, Creativity, Teamwork, Literacy and Confidence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <section class="section" id="fees">
+  <div class="container">
+    <h2>Fees Structure</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Class</th>
+          <th scope="col">Boarding Fees</th>
+          <th scope="col">Day Fees</th>
+          <th scope="col">Boarding Uniforms</th>
+          <th scope="col">Day Uniforms</th>
+          <th scope="col">Requirements</th>
+          <th scope="col">Swimming/Milk</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nursery</td>
+          <td>-</td>
+          <td>407,500 (continuing students)</td>
+          <td>-</td>
+          <td>199,500</td>
+          <td>105,000</td>
+          <td>101,000</td>
+          <td>712,000 (new students)</td>
+        </tr>
+        <tr>
+          <td>Primary P1-P2</td>
+          <td>902,500 (continuing students)</td>
+          <td>477,500</td>
+          <td>430,500 (new entrants)</td>
+          <td>211,500</td>
+          <td>105,000</td>
+          <td>101,000</td>
+          <td>705,000</td>
+        </tr>
+        <tr>
+          <td>Primary P4-P7</td>
+          <td>902,000</td>
+          <td>537,500</td>
+          <td>403,500</td>
+          <td>227,500</td>
+          <td>105,000</td>
+          <td>101,000</td>
+          <td>1,533,000</td>
+        </tr>
+        <tr>
+          <td>Secondary S1-S4</td>
+          <td>1,200,000</td>
+          <td>800,000</td>
+          <td>300,000</td>
+          <td>200,000</td>
+          <td>150,000</td>
+          <td>200,000</td>
+          <td>2,650,000</td>
+        </tr>
+        <tr>
+          <td>High School S5-S6</td>
+          <td>1,500,000</td>
+          <td>900,000</td>
+          <td>350,000</td>
+          <td>250,000</td>
+          <td>200,000</td>
+          <td>250,000</td>
+          <td>3,200,000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</section>
+
+
+  <section class="section" id="gallery">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="C:\Users\User\Desktop\bps\IMG-20241128-WA0007.jpg" class="img-fluid" alt="Gallery Image 1">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDPmClIonwVmkewfDho9bvfmLbAtLP8qW1Q&s" class="img-fluid" alt="Gallery Image 2">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCCr_X8kZqWIK90p0JiV7BZjHncXMXgGwpqw&s" class="img-fluid" alt="Gallery Image 3">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdNyTa3hYRKgWdgDaboPEVD8f44q-YRW3Q3Q&s" class="img-fluid" alt="Gallery Image 4">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl1QNeQVa2IpJyIuhd9kWSB-L5esw8AXnccA&s" class="img-fluid" alt="Gallery Image 5">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMfyBOEA-GrliPNHS6tvPMypqtV0kQdcyNA&s" class="img-fluid" alt="Gallery Image 6">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTorYH4dlySavm8gQCBWUk8NfFiAYmx9q8-Jg&s" class="img-fluid" alt="Gallery Image 7">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0bPX2Qh6mgDqnbS3rZ2_piBWF11KgCUi66Q&s" class="img-fluid" alt="Gallery Image 8">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXGtamRxZFilYfT1oM0qAwonM0PwDKNKdnaw&s" class="img-fluid" alt="Gallery Image 9">
+            </div>
+            <div class="col-md-4">
+                <img src="https://i.ytimg.com/vi/FqxO3NRgseM/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGH8gEygjMA8=&rs=AOn4CLABtvyCAGDxPuW8oTwKcZvpUE_4-w" class="img-fluid" alt="Gallery Image 10">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="cta" id="cta">
+        <div class="container">
+            <h2>Join Our Community</h2>
+            <p>Enroll your child at Busega Preparatory School today for a brighter future.</p>
+            <button onclick="location.href='enrollment.html'" class="btn btn-light">Enroll Now</button>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Find Us</h2>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7614688611407!2d32.513362174964584!3d0.3058668996911312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177da34267a35f9b%3A0xb5ea673533b31fef!2sBusega%20Preparatory%20School!5e0!3m2!1sen!2sug!4v1736508975176!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+<section class="section" id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Get in Touch</h4>
+                <p>Email: <a href="mailto:info@busegapreparatoryschool.com">info@busegapreparatoryschoo;.com</a></p>
+                <p>Phone: <a href="tel:0392893619/0772595097/0762844239">0392893619/0772595097/0762844239</a></p>
+                <p>Address: p.o box 23 Nateete, Busega Uganda</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Send Us a Message</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <p>&copy; 2025 Busega Preparatory School. All Rights Reserved.</p>
+    </footer>
+
+    <button class="scroll-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const scrollToTopButton = document.querySelector('.scroll-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollToTopButton.style.display = 'block';
+            } else {
+                scrollToTopButton.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
